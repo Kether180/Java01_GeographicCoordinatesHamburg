@@ -86,5 +86,5 @@ Declarations:      ▪ public String toString()
 
 ▪ Requirement 8 Ensure that all given Unit-tests are executed properly. 
 
-4 Distances  
+4.1 Distances  
 Create an executable class GeoApp (i.e. an executable application), that displays in the console the distance from the HAW Hamburg to all locations given by the following table. For determining the distances use both the local and the accurate approach and enter the results in the table. Additionally, add the deviation of the local and the accurate approach.
