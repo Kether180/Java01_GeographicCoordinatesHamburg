@@ -1,6 +1,7 @@
 # Java01_GeographicCoordinatesHamburg
 
- Java Praktikum Lab 1 - Geographic Coordinates Hamburg Updated 31 minutes ago 
+                                                        Java Praktikum Lab 1 
+                                                  Geographic Coordinates Hamburg
  
  
 1.1 Geographic Coordinates and Distances: 
@@ -36,7 +37,7 @@ The distance between neighboring longitudes depends on the latitude of the place
 2.2 Distance Calculation on the Globe 
 For a more precise calculation of the distance between two places on the earth's surface, the following formula is given without derivation3. Here, the factor 6378,388 km corresponds to the earth's radius. 
 
-𝑑=6378,388∙arccos(sin𝑙𝑎𝑡1∙sin𝑙𝑎𝑡2+cos𝑙𝑎𝑡1∙cos𝑙𝑎𝑡2∙cos(𝑙𝑜𝑛2−𝑙𝑜𝑛1)) 
+                     𝑑=6378,388∙arccos(sin𝑙𝑎𝑡1∙sin𝑙𝑎𝑡2+cos𝑙𝑎𝑡1∙cos𝑙𝑎𝑡2∙cos(𝑙𝑜𝑛2−𝑙𝑜𝑛1)) 
 
 3 Class GeoPosition  
 There is a class GeoPosition to be created that allows to represent geographic coordinates. The class is basically described by the adjacent UML symbol. In the box below the class name, the attributes are given with the respective data type. A minus sign indicates that the modifier private is to be used. The lower section lists the methods with parameter lists and after the colon the data type of their return value. Underlined elements are class methods. 
@@ -50,9 +51,9 @@ There is a class GeoPosition to be created that allows to represent geographic c
 
 ▪ Requirement 3 There are getter methods that return the value of latitude and longitude, respectively. (Also have these methods automatically generated in Eclipse.)  
 
-Declarations:  ▪ public GeoPosition(double latitude, double longitude)
-                ▪ public double getLatitude() 
-                ▪ public double getLongitude() 
+Declarations:          ▪ public GeoPosition(double latitude, double longitude)
+                       ▪ public double getLatitude() 
+                       ▪ public double getLongitude() 
                 
                 
 3.3 Query of the Hemisphere     
