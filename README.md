@@ -83,6 +83,7 @@ Declarations:      ▪ public static double localDistanceInKm(GeoPosition a, Geo
 Declarations:      ▪ public String toString()  
 
 3.6 Unit-Tests 
+
 ▪ Requirement 8 Ensure that all given Unit-tests are executed properly. 
 
 4 Distances  
